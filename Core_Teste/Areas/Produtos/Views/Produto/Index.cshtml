@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12">
+            <div class="text-center panel panel-info">
+                <h1> Você está na área de Produtos</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <ul>
+            <li>Produto 1..</li>
+            <li>Produto 2...</li>
+            <li>Produto 3...</li>
+        </ul>
+    </div>
+    <div class="row">
+        @Html.ActionLink("Voltar","Index","Teste",new { area=""})
+    </div>
+</div>
+
